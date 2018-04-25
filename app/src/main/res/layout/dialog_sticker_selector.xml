@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/custom_tag_bg_shape"
+        android:drawablePadding="4dp"
+        android:drawableRight="@drawable/ic_input_done"
+        android:hint="请输入批注"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine|textImeMultiLine"
+        android:maxLength="32"
+        android:minWidth="150dp"
+        android:padding="8dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ccffffff"
+        android:textSize="14sp" />
+
+</LinearLayout>
